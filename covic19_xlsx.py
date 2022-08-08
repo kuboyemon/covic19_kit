@@ -54,7 +54,6 @@ num=st.selectbox('番号を選択して詳細を表示',
 (i for i in df_index)
 )
 num=int(num)
-st.error('市町に取り扱い薬局が存在しません')
 
 if num==None:
     st.write('番号を入力してください。')
