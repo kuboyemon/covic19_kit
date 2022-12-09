@@ -71,4 +71,5 @@ st.write('無料検査拠点検索システムに戻る')
 st.write('https://kuboyemon-covic19-pdf-covic19pdf-63n9sa.streamlitapp.com/')
 
 st.write('Ver.1.0     2022.8.5 公開開始')
+st.write('Ver.1.1     2022.12.9 元データ変更による修正')
 st.write('Copyright © kuboyemon at Yaita PS from Tochigi PD')
