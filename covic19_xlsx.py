@@ -45,7 +45,7 @@ else:
   df=df_tochigi[df_tochigi['所在地'].str.contains(city)]
   df.reset_index(drop=True,inplace=True)
 
-st.dataframe(df[['薬局名称','所在地']])
+st.dataframe(df[['名称','所在地']])
 st.write('拠点数:'+str(len(df)))
 
 df_index=df.index.values
