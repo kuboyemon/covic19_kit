@@ -59,7 +59,7 @@ if num==None:
     st.write('番号を入力してください。')
 else:
     st.write('###### 薬局名称')
-    st.write(df.loc[num,'薬局名称'])
+    st.write(df.loc[num,'名称'])
     st.write('###### 所在地')
     link='[{}](https://www.google.co.jp/maps/place/{})'.format(df.loc[num,'所在地'],df.loc[num,'所在地'])
     st.markdown(link, unsafe_allow_html=True)
