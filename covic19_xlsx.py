@@ -28,7 +28,8 @@ df_tochigi.reset_index(drop=True,inplace=True)
 import streamlit as st
 import streamlit.components.v1 as stc
 
-st.title('医療用検査キット取り扱い薬局検索システム')
+st.title('Covic-19検査キット取り扱い薬局検索システム')
+st.write('※医療用に限定せず検索できるよう修正しました')
 st.write('元データ掲載元')
 st.write(url)
 city=st.selectbox(
